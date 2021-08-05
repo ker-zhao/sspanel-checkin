@@ -11,7 +11,7 @@ SSPanel 流量自动签到脚本
 
 ### 方式一：Github Actions（推荐）
 
-> Fork 后的项目 Github Actions 默认处于关闭状态，需要手动开启 Actions，执行一次工作流。后续定时任务(cron)才会自动执行。具体操作信息看：[关于定时任务不执行](#关于定时任务不执行)。
+> Fork 后的项目 Github Actions 默认处于关闭状态，需要手动开启 Actions，执行一次工作流。后续定时任务(cron)才会自动执行。具体操作信息看：[关于定时任务不执行](https://github.com/isecret/sspanel-autocheckin#%E5%85%B3%E4%BA%8E%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1%E4%B8%8D%E6%89%A7%E8%A1%8C)。
 
 Fork 该仓库，进入仓库后点击 `Settings`，右侧栏点击 `Secrets`，点击 `New secret`。添加以下值：
 * USER_INFO: 格式：签到站点|邮箱|密码。 示例：https://abc.com|xiaoming@qq.com|password
