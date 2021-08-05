@@ -17,7 +17,7 @@ Fork 该仓库，进入仓库后点击 `Settings`，右侧栏点击 `Secrets`，
 * USER_INFO: 格式：签到站点|邮箱|密码。 示例：https://abc.com|xiaoming@qq.com|password
 * SEND_KEY（非必须）: 微信推送 ，填写自己申请[Server 酱](http://sc.ftqq.com/?c=code)的`SC KEY`。
 
-定时任务将于每天上午 `9:30` 分和晚上 `20:30` 执行，如果需要修改请编辑 `.github/workflows/work.yaml` 中 `on.schedule.cron` 的值（注意，该时间时区为国际标准时区，国内时间比起快8个小时。）。
+定时任务将于每天上午 `9:30` 分和晚上 `20:30` 执行，如果需要修改请编辑 `.github/workflows/work.yaml` 中 `on.schedule.cron` 的值（注意，该时间时区为国际标准时区，国内时间比其快8个小时。）。
 
 ## 鸣谢
 谢谢Mao Wang，此使用说明基本是从他那里搬过来。下面贴出他的项目地址，功能更多。我写的这个主要是个人练手使用，优点是python编写，而且代码非常的简短易读。
