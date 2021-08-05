@@ -6,7 +6,7 @@ name: Python package
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 1,12 * * *'
+    - cron: '35 1,12 * * *'
 
 jobs:
   build:
