@@ -5,8 +5,8 @@ name: Python package
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '35 1 * * *'
+#   schedule:
+#     - cron: '35 1 * * *'
 
 jobs:
   build:
